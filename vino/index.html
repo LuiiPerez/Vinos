@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8" />
+		<link href="css/style.css" rel="stylesheet" type="text/css"></style>
+		<script type="text/javascript" src="js/script.js"></script>
+        <!-- Incluimos la libreria jQuery -->
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <!-- Incluimos el plugin -->
+        <script src="bjqs.min.js"></script>
+        <script src="script.js"></script>
+        <!-- Opcional, importamos una fuente a gusto -->
+        <link href='http://fonts.googleapis.com/css?family=Pathway+Gothic+One' rel='stylesheet' type='text/css'>
+        <!-- Importamos nuestra hoja de estilos CSS -->
+        <link rel="stylesheet" href="estilos.css" />
+        <script src="js/funcion.js"></script>
+		<title>Vino Macabo</title>
+	</head>
+	<nav>
+		<section class="logo">
+			<img src="img/logo.png" />
+		</section>
+		<ul>
+			<li>
+				<a href="">Contacto</a>
+			</li>
+			<li><a href="#">Productos</a>
+				<ul>
+					<li><a href="#" onclick="muestrac()">Cabas y Blancos</a></li>
+					<li><a href="#" onclick="muestrav()">Vinos Tintos</a></li>
+					<li><a href="#" onclick="muestraa()">Aceites</a></li>
+				</ul>
+			</li>
+			<li><a href="">Acerca De</a></li>
+			<li><a href="" onclick="muestrai()">Inicio</a></li>
+		</ul>
+	</nav>
+	<body onload="carga()">
+		<aside class="regis">
+			<article>
+				<form>
+					<input type="text" />
+					<input type="password" />
+					<input type="submit" value="Iniciar Sesión" />
+				</form>
+				<section>
+					<a>Registrarse</a>
+				</section>
+			</article>
+		</aside>
+		<section class="content">
+		    <!-- SLIDESHOW -->
+		    <div id="slider">
+		        <ul class="bjqs">
+		            <li>
+		                <img src="img/cabla.png" alt="" />
+		            </li>
+		            <li>
+		                <img src="img/cabla.png" alt="" />
+		            </li>
+		            <li>
+		                <img src="img/cabla.png" alt="" />
+		            </li>
+		            <li>
+		                <img src="img/slider.png" alt="" title="" />
+		            </li>
+		        </ul>
+		    </div>
+		    <!-- FIN SLIDESHOW -->
+		</section>
+		<section class="producto">
+			<article class="cabla">
+				<section class="art">
+					<aside class="ima">
+						<img src="img/b1.png">
+					</aside>
+					<aside>
+						<h4>CAVA BRUT NATURE CASTELLROIG 2012</h4>
+						<p>
+							<span>Tipo</span>
+							<a>Espumoso</a>
+							<br/>
+							<span>Bodega</span>
+							<a>Castellroig-Sabaté i Coca</a>
+							<br/>
+							<span>Origen</span>
+							<a>D.O. Cava</a>
+							<br/>
+							<span>Variedades</span>
+							<a>Macabeo, Parellada y Xarel-lo</a>
+						</p>
+						<p>
+							<span>Elaboración</span>
+							<a>Después  de  vinificar  por  separado  las  variedades  tradicionales  Macabeo,  Xarel·lo  y 
+							Parellada,  se  realiza  un  cupaje  con  el  que  se  elabora  este  cava  siguiendo  el  método 
+							tradicional.  La  frescura  y  una  crianza  mínima  de  12  meses  caracterizan  a  este  cava. 
+							Alcohol 12°.</a>
+						</p>
+						<p>
+							<span>Nota de Cata</span>
+							<a>Color  amarillo  pajizo,  con  reflejos  verdosos.  Cava  de  burbuja  fina.  En  nariz  frescura  y 
+							equilibrio,  aromas  de  flores  blancas,  jazmín  y  fruta  blanca  (pera,  manzana)  con  ligeros 
+							toques cítricos como pomelo, levadura y bollería. En boca es fresco, equilibrado, ligero y 
+							muy seco, goloso con final de frutas blancas.</a>
+						</p>
+						<p>
+							<span>Maridaje</span>
+							<a>Apto para todas las ocasiones, especialmente entrantes y aperitivos.</a>
+						</p>
+					</aside>
+				</section>
+				<section class="art">
+					<aside class="ima">
+						<img src="img/b2.png">
+					</aside>
+					<aside>
+						<h4>CAVA BRUT NATURE RESERVA CASTELLROIG 2011</h4>
+						<p>
+							<span>Tipo</span>
+							<a>Espumoso</a>
+							<br/>
+							<span>Bodega</span>
+							<a>Castellroig-Sabaté i Coca</a>
+							<br/>
+							<span>Origen</span>
+							<a>D.O. Cava</a>
+							<br/>
+							<span>Variedades</span>
+							<a>Macabeo, Parellada y Xarel-lo</a>
+						</p>
+						<p>
+							<span>Elaboración</span>
+							<a>Después  de  vinificar  por  separado  las  variedades  tradicionales  Xarel·lo,  Macabeo  y 
+							Parellada,  se  realiza  un  cupaje  con  el  que  se  elabora  este  cava  siguiendo  el  método 
+							tradicional. El Xarel·lo y una crianza mínima de 24 meses caracterizan este cava. Alcohol
+							12°.</a>
+						</p>
+						<p>
+							<span>Nota de Cata</span>
+							<a>Color amarillo pajizo, limpio y brillante. Aromas frescos de flor blanca y fruta blanca, con 
+							notas  de  hinojo,  pera,  mantequilla  y  bollería.  En  boca  es  fresco,  equilibrado,  seco, 
+							elegante, estructurado y voluminoso.</a>
+						</p>
+						<p>
+							<span>Maridaje</span>
+							<a>Apto para todas las ocasiones. Tiene cuerpo para acompañar platos fuertes y salseados, 
+							tanto pescados como carnes y frescura para acompañar pasta y arroces. </a>
+						</p>
+					</aside>
+				</section>
+				<section class="art">
+					<aside class="ima">
+						<img src="img/b3.png">
+					</aside>
+					<aside>
+						<h4>VINO BLANCO XAREL.LO CASTELLROIG 2013</h4>
+						<p>
+							<span>Tipo</span>
+							<a>Vino blanco</a>
+							<br/>
+							<span>Bodega</span>
+							<a>Castellroig-Sabaté i Coca</a>
+							<br/>
+							<span>Origen</span>
+							<a>D.O. Penedés</a>
+							<br/>
+							<span>Variedades</span>
+							<a>Xarel-lo 100%</a>
+						</p>
+						<p>
+							<span>Elaboración</span>
+							<a>Las uvas enteras, maduras y equilibradas se someten a una ligera maceración y un suave 
+							prensado, una lenta fermentación a baja temperatura y posterior crianza del vino obtenido 
+							sobre sus lías finas durante 4 ó 5 meses en depósitos de inoxidable. Se obtiene así un 
+							Xarel·lo de singulares características. Alcohol 12°.</a>
+						</p>
+						<p>
+							<span>Nota de Cata</span>
+							<a>Color  amarillo  pajizo,  reflejos  verdosos  muy  brillantes.  En  nariz  aromas  frutales  de 
+							manzana,  frutas  tropicales, piña con  delicado  fondo  de  finas  hierbas  y  toque  de  frutos 
+							secos. Un vino con volumen. Con un paso por boca untuoso y fresco, dejando un ligero 
+							gusto de la dulzor de la uva y con larga persistencia aromática. Postgusto muy largo.</a>
+						</p>
+						<p>
+							<span>Maridaje</span>
+							<a>Es  un  vino  apto  para muchas  ocasiones,  aperitivos,  pescados,  marisco  crudo,  sushi, 
+							cremas, sopas y puede combinarse también con carnes blancas. </a>
+						</p>
+					</aside>
+				</section>
+				<section class="art">
+					<aside class="ima">
+						<img src="img/b4.png">
+					</aside>
+					<aside>
+						<h4>VINO  BLANCO  XAREL.LO  SELECCIÓN CASTELLROIG 2011</h4>
+						<p>
+							<span>Tipo</span>
+							<a>Vino blanco</a>
+							<br/>
+							<span>Bodega</span>
+							<a>Castellroig-Sabaté i Coca</a>
+							<br/>
+							<span>Origen</span>
+							<a>D.O. Penedés</a>
+							<br/>
+							<span>Variedades</span>
+							<a>Xarel-lo 100%</a>
+						</p>
+						<p>
+							<span>Elaboración</span>
+							<a>Xarel·lo de viñedos viejos fermentado en barricas nuevas de roble francés, dejando los 
+							vinos  sobre  sus  lías  finas  durante  5  meses.  Una  vez  terminada  la  fermentación 
+							maloláctica  se  afina  en  botella  antes  de  su  consumo. Se  obtiene  así  un  Xarel·lo  de 
+							singulares características. Alcohol 12°.</a>
+						</p>
+						<p>
+							<span>Nota de Cata</span>
+							<a>Vino de aromas especiados por su crianza en barrica de roble francés y de fruta madura, 
+							notas  de  canela  y  tabaco  equilibradas  con  plátano  y  mango.  En  boca  es estructurado, 
+							elegante, cremoso y de larga persistencia.</a>
+						</p>
+						<p>
+							<span>Maridaje</span>
+							<a>Muchas  posibilidades  culinarias  como  pescados,  mariscos,  hasta  carnes  blancas  o 
+							ahumados y carnes de lechal. Temperatura de consumo: 9-10 Cº.</a>
+						</p>
+					</aside>
+				</section>
+			</article>
+			<article class="vitin">Vinos tintos</article>
+			<article class="aceite">Aceites</article>
+		</section>
+		<aside class="barra">
+			<nav>
+				<ul>
+					<li>
+						<a href="">Bodegas</a>
+					</li>
+					<li><a href="#">Promociones</a>
+					</li>
+					<li><a href="">FAQ</a></li>
+					<li><a href="" onclick="muestrai()">Inicio</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</body>
+	<!--<aside class="linea"></aside>-->
+	<footer>
+		<article><span>Todos los derechos reservados, S.A. de C.V. 20014</span></article>
+	</footer>
+</html>
